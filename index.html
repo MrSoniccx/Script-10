@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="xD.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <center>
+      <div class="cajita">
+        <h1>Inventario</h1>
+        <p class="textito">Welcome</p>
+      </div>
+      <div class="flex">
+        <form class="cajita">
+          <h1>Formualrio</h1>
+          <p>Introdusca los siguientes datos</p>
+          <p>Codigo</p>
+          <input type="number" name="codigo" id="codigo" /><br />
+          <p>Nombre</p>
+          <input type="text" name="nombre" id="nombre" /><br />
+          <p>Descripcion</p>
+          <input type="text" name="desc" id="desc" /><br />
+          <p>Cantidad</p>
+          <input type="number" name="cantidad" id="cantidad" /><br />
+          <p>Costo</p>
+          <input type="number" name="costo" id="costo" /><br />
+          
+          <br />
+        </form>
+        <form class="cajita">
+          <h1>Botones</h1>
+          <p>¿Que desea hacer?</p>
+          <p>porfavor llene los datos del formulario</p>
+          <input type="button" id="Add" value="Agregar nuevo producto" /> <br />
+          <p>escriba el codigo del producto en el apartado de "Codigo" del formulario</p>
+          <input type="button" id="Del" value="Borrar un producto por código" />
+          <p>escriba el codigo del producto en el apartado de "Codigo" del formulario</p>
+          <input type="button" id="Search" value="Buscar un producto por código" />
+          <input type="button" id="List" value="Recuperar todos los productos" />
+          <input type="button" id="ListInv" value="Listar productos en orden inverso" />
+          <input type="button" id="DelFirst" value="Eliminar en la primera posicion" />
+        </form>
+        <form class="cajita">
+          <h1>Resultados</h1>
+          <p id="Description"></p>
+          <br />
+        </form>
+        
+      </div>
+    </body>
+    <script src="main.js"></script>
+  </html>
+      
